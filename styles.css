@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    /* max-width: 800px; */
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -59,6 +59,7 @@ li a:hover {
 
 #projects h2 {
     width: 100%;
+    padding: .5vh 3vw;
 }
 
 .portfolio-item {
@@ -112,7 +113,7 @@ span.heart {
         background-color: var(--color-one, #000000);
     }
     ul {
-        padding: 2vw;
+        padding: 2vw 0;
     }
     li {
         padding: 2vw;
@@ -134,9 +135,10 @@ span.heart {
         background-color: var(--color-one, #000000);
         color: var(--color-two, #ffffff);
     }
-    #projects {
+    /* #projects {
         padding: .5vh 3vw;
     }
+    */
     .portfolio-item {
         width: 80%;
         border: 1px solid var(--color-one, #000000);
@@ -190,9 +192,6 @@ span.heart {
     #projects {
         color: var(--color-two, #ffffff);
         background-color: var(--color-one, #000000);
-    }
-    #projects h2 {
-        padding: .5vh 3vw;
     }
     .portfolio-item {
         width: 35%;

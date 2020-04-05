@@ -12,171 +12,221 @@
     <!-- Material Design Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.12/css/mdb.min.css" rel="stylesheet">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700" rel="stylesheet">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" rel="stylesheet">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
-
 </head>
 
 <body>
-    <main>
-
+    <main class="indigo lighten-5">
         <section class="top-section d-flex flex-column align-items-center justify-content-center">
-            <div class="container-fluid white">
-                <div class="row text-center">
-                    <div class="col-12 my-auto animated fadeInDown">
-                        <h1><em>Enchantée</em>, I'm <span class="indigo-text">Ileana</span>.</h1>
-                        <p class="text-uppercase">Front End Web Developer</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="work">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 pt-3 pb-3 text-center">
-                        <h2>Selected Work</h2>
-                    </div>
-                    <div class="col-md-5 col-sm-12 animated slideInLeft slow">
-                        <h3>Neighborhood Map</h3>
-                        <p>A single page web application that shows the top 30 restaurants in Kailua-Kona, Hawaii.</p>
-                        <h4>Technology</h4>
-                        <p>Neighborhood Map was built using React.js. The FourSquare API was integrated to pull the top 30 restaurants in an area, and these locations were then mapped using the Google Maps API. The axios library was used to make AJAX requests.</p>
-                    </div>
-                    <div class="offset-md-1 col-md-6 col-sm-12 animated slideInRight slow">
-                        <img class="img-fluid rounded mx-auto" alt="Neighborhood Map Screenshot" src="img/neighborhoodmap.png">
-                    </div>
-                </div>
-                <div class="row justify-content-center pt-3">
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/html5.png" alt="HTML5 logo" class="img-fluid tech-logo">
-                        <p>HTML5</p>
-                    </div>
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/css3.png" alt="CSS3 logo" class="img-fluid tech-logo">
-                        <p>CSS3</p>
-                    </div>
-                    <div class="col-md-1 col-sm-2">
-                        <img src="img/javascript.png" alt="JavaScript logo" class="tech-logo">
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="col-md-1 col-sm-2">
-                        <img src="img/react.png" alt="React logo" class="tech-logo">
-                        <p>React</p>
-                    </div>
-                </div>
-                <div class="col-12 pt-2 pb-4 text-center">
-                    <a href="https://ileanahi.github.io/neighborhood-maps/" target="_blank"><button class="btn btn-primary">Launch App</button></a>
-                    <a href="https://github.com/ileanahi/neighborhood-maps" target="_blank"><button class="btn btn-primary">View Code</button></a>
-                </div>
-                <div class="row pt-2">
-                    <div class="col-md-6 col-sm-12 wow slideInLeft slow">
-                        <img class="img-fluid rounded mx-auto" alt="My Reads Screenshot" src="img/myreads.png">
-                    </div>
-                    <div class="offset-md-1 col-md-5 col-sm-12 wow slideInRight slow pt-1">
-                        <h3>My Reads App</h3>
-                        <p>A responsive web application to track the books that readers have read, want to read or are currently reading.</p>
-                        <h4>Technology</h4>
-                        <p>This app was created using React.js for a dynamic user interface that interacts with an API server and a client library. A React Router was used for routing between the main page and search page.</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center pt-3">
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/html5.png" alt="HTML5 logo" class="tech-logo">
-                        <p>HTML5</p>
-                    </div>
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/css3.png" alt="CSS3 logo" class="tech-logo">
-                        <p>CSS3</p>
-                    </div>
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/javascript.png" alt="JavaScript logo" class="tech-logo">
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/react.png" alt="React logo" class="tech-logo">
-                        <p>React</p>
-                    </div>
-                </div>
-                <div class="col-12 pt-2 pb-4 text-center">
-                    <a href="https://ileanahi.github.io/React-My-Reads-App/" target="_blank"><button class="btn btn-primary">Launch App</button></a>
-                    <a href="https://github.com/ileanahi/React-My-Reads-App/" target="_blank"><button class="btn btn-primary">View Code</button></a>
-                </div>
-                <div class="row pt-2">
-                    <div class="col-md-5 col-sm-12 wow slideInLeft slow">
-                        <h3>Arcade Game</h3>
-                        <p>A browser game based on the popular arcade game Frogger.</p>
-                        <h4>Technology</h4>
-                        <p>HTML5 Canvas and Object Oriented JavaScript were used in the development of this game.</p>
-                    </div>
-                    <div class="offset-md-1 col-md-6 col-sm-12 wow slideInRight slow">
-                        <img class="img-fluid rounded mx-auto" alt="Arcade Game Screenshot" src="img/arcadegame.png">
-                    </div>
-                </div>
-                <div class="row justify-content-center pt-3">
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/html5.png" alt="HTML5 logo" class="img-fluid tech-logo">
-                        <p>HTML5</p>
-                    </div>
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/css3.png" alt="CSS3 logo" class="img-fluid tech-logo">
-                        <p>CSS3</p>
-                    </div>
-                    <div class="col-md-1 col-sm-2">
-                        <img src="img/javascript.png" alt="JavaScript logo" class="tech-logo">
-                        <p>JavaScript</p>
-                    </div>
-                </div>
-                <div class="col-12 pt-2 pb-4 text-center">
-                    <a href="https://github.com/ileanahi/Arcade-Game-Clone" target="_blank"><button class="btn btn-primary">View Code</button></a>
-                </div>
-                <div class="row pt-2">
-                    <div class="col-md-6 col-sm-12 wow slideInLeft slow">
-                        <img class="img-fluid rounded mx-auto" alt="My Reads Screenshot" src="img/matchgame.png">
-                    </div>
-                    <div class="offset-md-1 col-md-5 col-sm-12 pt-1 wow slideInRight slow">
-                        <h3>Matching Game</h3>
-                        <p>A browser-based card matching game.</p>
-                        <h4>Technology</h4>
-                        <p>This app was created using Vanilla JavaScript and Font Awesome icons. It features a timer, move tracker, star count, and modal window upon matching all of the cards correctly.</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center pt-3">
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/html5.png" alt="HTML5 logo" class="tech-logo">
-                        <p>HTML5</p>
-                    </div>
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/css3.png" alt="CSS3 logo" class="tech-logo">
-                        <p>CSS3</p>
-                    </div>
-                    <div class="col-md-1 col-xs-2">
-                        <img src="img/javascript.png" alt="JavaScript logo" class="tech-logo">
-                        <p>JavaScript</p>
-                    </div>
-                </div>
-                <div class="col-12 pt-2 pb-4 text-center">
-                    <a href="https://codepen.io/ileanahi/full/xzgyLv/" target="_blank"><button class="btn btn-primary">Play the Game</button></a>
-                </div>
+                    <div class="col-12 my-auto">
 
-        </section>
-        <div class="blue-gradient pt-2 pb-2"></div>
-
-    </main>
-    <footer id="contact" class="pt-3 pb-3 white text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="black-text">I'm available for work, get in touch</h2>
-                    <a class="black-text p-2" href="mailto:argyris.ileana@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
-                    <a class="black-text p-2" href="https://www.linkedin.com/in/ileanaargyris/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i> LinkedIn</a>
-                    <a class="black-text p-2" href="https://github.com/ileanahi/" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
-                    <p class="pt-2">&#9400; Copyright 2018 All Rights Reserved. Designed and Developed by Ileana Argyris.</p>
+                        <h1 class="display-3">Hi, I'm <span class="font-weight-bold d-block">Ileana Argyris</span></h1>
+                        <p class="text-uppercase">Full Stack Web Developer</p>
+                        <p class="my-3 lead">I specialize in creating modern, responsive websites for individuals and small-scale businesses to large enterprise corporations.</p>
+                        <a class="btn btn-deep-orange btn-lg" href="#work">Let's Work Together</a>
+                        <div class="d-flex pt-4">
+                            <a class="black-text p-2" href="mailto:argyris.ileana@gmail.com" target="_blank" title="Email Me"><i class="fas fa-envelope"></i></a>
+                            <a class="black-text p-2" href="https://www.linkedin.com/in/ileanaargyris/" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                            <a class="black-text p-2" href="https://github.com/ileanahi/" target="_blank" title="View my Github"><i class="fab fa-github fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="my-auto illustration d-none d-md-block">
+                        <div class="shape"></div>
+                        <div class="overlay">
+                            <img src="img/remote.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+        <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M0 100 C 20 0 50 0 100 100 Z" />
+        </svg>
+        <section class="ss-style-curvedown amber py-4">
+            <div class="container">
+
+                <div class="py-3">
+                    <div class="col-md-11 mx-auto">
+                        <div class="row">
+                            <div class="col-12 pb-3">
+                                <h2 class="text-center pb-4 display-4">Featured Services</h2>
+                            </div>
+                        </div>
+                        <div class="row z-depth-1 grey lighten-5 p-4">
+                            <div class="col-md-4 text-center">
+                                <i class="fas fa-code fa-3x pb-3"></i>
+                                <h3 class="text-uppercase">Front End</h3>
+                                <p>I convert designs into performant websites accessible for all users using HTML, CSS, and JavaScript.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <i class="fas fa-laptop-code fa-3x pb-3"></i>
+                                <h3 class="text-uppercase">Back End</h3>
+                                <p>I have experience using PHP, Ruby, Python, and Node.js.</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <i class="fab fa-wordpress-simple fa-3x pb-3"></i>
+                                <h3 class="text-uppercase">CMS</h3>
+                                <p>I can develop your site with a CMS such as WordPress or Webflow to make it easy for you to update your content.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M0 0 C 50 100 80 100 100 0 Z" />
+        </svg>
+
+
+        <section id="work">
+            <div class="container pb-4">
+                <div class="row py-4">
+                    <div class="col-12 text-center">
+                        <h2 class="pb-4 display-4">Featured Work</h2>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-11 mx-auto z-depth-1 grey lighten-5 p-4 portfolio-link">
+                    <a href="https://marshmallowstreaming.com/" target="_blank" class="text-muted row">
+                        <div class="col-md-6">
+                            <img src="img/marshmallow-screen.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p class="text-uppercase mb-0 font-weight-bold">Frontend Development </p>
+                            <span class="h2 font-weight-bold text-dark hover hover-1">Marshmallow Streaming</span>
+                            <div class="pt-3">
+                                <p>HTML5, CSS3, Bootstrap 4, JavaScript</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-11 mx-auto py-3 z-depth-1 grey lighten-5 p-4 portfolio-link mt-4">
+                    <a href="https://www.breakdiving.io/" class="text-muted row">
+                        <div class="col-md-6">
+                            <p class="text-uppercase mb-0 font-weight-bold">Fullstack Development </p>
+                            <span class="h2 font-weight-bold text-dark hover hover-1">Breakdiving.io</span>
+                            <div class="pt-3">
+                                <p>HTML5, CSS3, Bootstrap, Ruby on Rails, JavaScript, Redis, PostgreSQL</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/breakdiving-screen.png" alt="" class="img-fluid">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="yellow-gradient">
+            <div class="container text-center">
+                <h3 class="display-4"></h3>
+            </div>
+        </section>
+
+
+        <!-- Small Testimonials -->
+        <section class="testimonial-section container d-md-none">
+            <div class="container">
+                <div class="sec-title text-center">
+                    <h2 class="display-4">Happy Clients</h2>
+                </div>
+                <div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="text">She always goes above and beyond and doesn't stop until the project is perfect. Very fast, efficient, with high-quality work. If you need a developer who cares as much about your business as you do, Ileana is the person - LOVE HER!</div>
+                        <div class="info-box">
+                            <h4 class="name">Daryle Degen</h4>
+                            <span class="designation">CEO - Maine Cater</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="text">I could not be happier with Ileana's work. She succeeded in every possible way: communication, adherence to schedule, quality of work. She was very responsive and understood exactly what needed to be done to complete the project quickly and efficiently.</div>
+                        <div class="info-box">
+                            <h4 class="name">Bryan Long</h4>
+                            <span class="designation">President & Founder - Southern Majority</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="text">Ileana is knowledgeable, helpful, fast, skilled, polite, consistent, and reliable. I appreciated all her hard work for my very small project. She helped me understand the coding and helped with my questions. I am very grateful for her assistance!</div>
+                        <div class="info-box">
+                            <h4 class="name">Carrie Cronan</h4>
+                            <span class="designation">Family Photographer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Large Testimonials -->
+        <section class="testimonial-section container d-none d-md-block">
+            <div class="circle border-orange circle03"></div>
+            <div class="circle circle04"></div>
+            <div class="large-container">
+                <div class="sec-title text-center">
+                    <h2 class="display-4">Happy Clients</h2>
+                </div>
+
+                <div class="testimonial-carousel owl-carousel owl-theme">
+                    <div class="testimonial-block">
+                        <div class="inner-box">
+                            <div class="text">She always goes above and beyond and doesn't stop until the project is perfect. Very fast, efficient, with high-quality work. If you need a developer who cares as much about your business as you do, Ileana is the person - LOVE HER!</div>
+                            <div class="info-box">
+                                <h4 class="name">Daryle Degen</h4>
+                                <span class="designation">CEO - Maine Cater</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-block">
+                        <div class="inner-box">
+                            <div class="text">I could not be happier with Ileana's work. She succeeded in every possible way: communication, adherence to schedule, quality of work. She was very responsive and understood exactly what needed to be done to complete the project quickly and efficiently.</div>
+                            <div class="info-box">
+                                <h4 class="name">Bryan Long</h4>
+                                <span class="designation">President & Founder - Southern Majority</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-block">
+                        <div class="inner-box">
+                            <div class="text">Ileana is knowledgeable, helpful, fast, skilled, polite, consistent, and reliable. I appreciated all her hard work for my very small project. She helped me understand the coding and helped with my questions. I am very grateful for her assistance!</div>
+                            <div class="info-box">
+                                <h4 class="name">Carrie Cronan</h4>
+                                <span class="designation">Family Photographer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer id="contact" class="amber lighten-1 black-text">
+        <div class="container pt-5 pb-2">
+            <h2 class="display-4 mb-3">Need help with a project?<span class="d-block display-3 font-weight-bold">Let's talk!</span></h2>
+            <a class="black-text p-2" href="mailto:argyris.ileana@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+            <a class="black-text p-2" href="https://www.linkedin.com/in/ileanaargyris/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i> LinkedIn</a>
+            <a class="black-text p-2" href="https://github.com/ileanahi/" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
+            <p class="pt-3">&#9400; Copyright 2020 All Rights Reserved. Designed and Developed by Ileana Argyris.</p>
         </div>
     </footer>
 
@@ -186,7 +236,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.12/js/mdb.min.js"></script>
-    <script>new WOW().init();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

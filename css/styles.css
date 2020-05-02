@@ -362,13 +362,13 @@ section.ss-style-curvedown::after {
     display: inline-block;
     height: 9px;
     width: 43px;
-    background-image: url(http://t.commonsupport.com/adro/images/icons/arrow-left-2.png);
+    background-image: url(https://t.commonsupport.com/adro/images/icons/arrow-left-2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .arrow-right {
-    background-image: url(http://t.commonsupport.com/adro/images/icons/arrow-right-2.png);
+    background-image: url(https://t.commonsupport.com/adro/images/icons/arrow-right-2.png);
 }
 
 .testimonial-section .thumb-layer {

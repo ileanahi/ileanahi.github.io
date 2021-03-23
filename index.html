@@ -1,243 +1,652 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
 <head>
-    <title>Ileana Argyris - Front End Developer</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <!-- Material Design Bootstrap CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.12/css/mdb.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700" rel="stylesheet">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" rel="stylesheet">
-    <!-- Stylesheet -->
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Ileana Argyris | Web Developer</title>
+    <meta name="description" content="Ileana is a web developer from Hawaii.">
+    <meta name="author" content="Ileana Argyris">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
 
-<body>
-    <main class="indigo lighten-5">
-        <section class="top-section d-flex flex-column align-items-center justify-content-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 my-auto">
-
-                        <h1 class="display-3">Hi, I'm <span class="font-weight-bold d-block">Ileana Argyris</span></h1>
-                        <p class="text-uppercase">Full Stack Web Developer</p>
-                        <p class="my-3 lead">I specialize in creating modern, responsive websites for individuals and small-scale businesses to large enterprise corporations.</p>
-                        <a class="btn btn-deep-orange btn-lg" href="#work">Let's Work Together</a>
-                        <div class="d-flex pt-4">
-                            <a class="black-text p-2" href="mailto:argyris.ileana@gmail.com" target="_blank" title="Email Me"><i class="fas fa-envelope"></i></a>
-                            <a class="black-text p-2" href="https://www.linkedin.com/in/ileanaargyris/" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
-                            <a class="black-text p-2" href="https://github.com/ileanahi/" target="_blank" title="View my Github"><i class="fab fa-github fa-lg"></i></a>
-                        </div>
-                    </div>
-                    <div class="my-auto illustration d-none d-md-block">
-                        <div class="shape"></div>
-                        <div class="overlay">
-                            <img src="img/remote.svg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M0 100 C 20 0 50 0 100 100 Z" />
-        </svg>
-        <section class="ss-style-curvedown amber py-4">
-            <div class="container">
-
-                <div class="py-3">
-                    <div class="col-md-11 mx-auto">
-                        <div class="row">
-                            <div class="col-12 pb-3">
-                                <h2 class="text-center pb-4 display-4">Featured Services</h2>
-                            </div>
-                        </div>
-                        <div class="row z-depth-1 grey lighten-5 p-4">
-                            <div class="col-md-4 text-center">
-                                <i class="fas fa-code fa-3x pb-3"></i>
-                                <h3 class="text-uppercase">Front End</h3>
-                                <p>I convert designs into performant websites accessible for all users using HTML, CSS, and JavaScript.</p>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <i class="fas fa-laptop-code fa-3x pb-3"></i>
-                                <h3 class="text-uppercase">Back End</h3>
-                                <p>I have experience using PHP, Ruby, Python, and Node.js.</p>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <i class="fab fa-wordpress-simple fa-3x pb-3"></i>
-                                <h3 class="text-uppercase">CMS</h3>
-                                <p>I can develop your site with a CMS such as WordPress or Webflow to make it easy for you to update your content.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+<body id="top">
 
 
-        </section>
-
-        <svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M0 0 C 50 100 80 100 100 0 Z" />
-        </svg>
-
-
-        <section id="work">
-            <div class="container pb-4">
-                <div class="row py-4">
-                    <div class="col-12 text-center">
-                        <h2 class="pb-4 display-4">Featured Work</h2>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-11 mx-auto z-depth-1 grey lighten-5 p-4 portfolio-link">
-                    <a href="https://marshmallowstreaming.com/" target="_blank" class="text-muted row">
-                        <div class="col-md-6">
-                            <img src="img/marshmallow-screen.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <p class="text-uppercase mb-0 font-weight-bold">Frontend Development </p>
-                            <span class="h2 font-weight-bold text-dark hover hover-1">Marshmallow Streaming</span>
-                            <div class="pt-3">
-                                <p>HTML5, CSS3, Bootstrap 4, JavaScript</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-md-11 mx-auto py-3 z-depth-1 grey lighten-5 p-4 portfolio-link mt-4">
-                    <a href="https://www.breakdiving.io/" class="text-muted row">
-                        <div class="col-md-6">
-                            <p class="text-uppercase mb-0 font-weight-bold">Fullstack Development </p>
-                            <span class="h2 font-weight-bold text-dark hover hover-1">Breakdiving.io</span>
-                            <div class="pt-3">
-                                <p>HTML5, CSS3, Bootstrap, Ruby on Rails, JavaScript, Redis, PostgreSQL</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="img/breakdiving-screen.png" alt="" class="img-fluid">
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="yellow-gradient">
-            <div class="container text-center">
-                <h3 class="display-4"></h3>
-            </div>
-        </section>
-
-
-        <!-- Small Testimonials -->
-        <section class="testimonial-section container d-md-none">
-            <div class="container">
-                <div class="sec-title text-center">
-                    <h2 class="display-4">Happy Clients</h2>
-                </div>
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="text">She always goes above and beyond and doesn't stop until the project is perfect. Very fast, efficient, with high-quality work. If you need a developer who cares as much about your business as you do, Ileana is the person - LOVE HER!</div>
-                        <div class="info-box">
-                            <h4 class="name">Daryle Degen</h4>
-                            <span class="designation">CEO - Maine Cater</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="text">I could not be happier with Ileana's work. She succeeded in every possible way: communication, adherence to schedule, quality of work. She was very responsive and understood exactly what needed to be done to complete the project quickly and efficiently.</div>
-                        <div class="info-box">
-                            <h4 class="name">Bryan Long</h4>
-                            <span class="designation">President & Founder - Southern Majority</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="text">Ileana is knowledgeable, helpful, fast, skilled, polite, consistent, and reliable. I appreciated all her hard work for my very small project. She helped me understand the coding and helped with my questions. I am very grateful for her assistance!</div>
-                        <div class="info-box">
-                            <h4 class="name">Carrie Cronan</h4>
-                            <span class="designation">Family Photographer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Large Testimonials -->
-        <section class="testimonial-section container d-none d-md-block">
-            <div class="circle border-orange circle03"></div>
-            <div class="circle circle04"></div>
-            <div class="large-container">
-                <div class="sec-title text-center">
-                    <h2 class="display-4">Happy Clients</h2>
-                </div>
-
-                <div class="testimonial-carousel owl-carousel owl-theme">
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text">She always goes above and beyond and doesn't stop until the project is perfect. Very fast, efficient, with high-quality work. If you need a developer who cares as much about your business as you do, Ileana is the person - LOVE HER!</div>
-                            <div class="info-box">
-                                <h4 class="name">Daryle Degen</h4>
-                                <span class="designation">CEO - Maine Cater</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text">I could not be happier with Ileana's work. She succeeded in every possible way: communication, adherence to schedule, quality of work. She was very responsive and understood exactly what needed to be done to complete the project quickly and efficiently.</div>
-                            <div class="info-box">
-                                <h4 class="name">Bryan Long</h4>
-                                <span class="designation">President & Founder - Southern Majority</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text">Ileana is knowledgeable, helpful, fast, skilled, polite, consistent, and reliable. I appreciated all her hard work for my very small project. She helped me understand the coding and helped with my questions. I am very grateful for her assistance!</div>
-                            <div class="info-box">
-                                <h4 class="name">Carrie Cronan</h4>
-                                <span class="designation">Family Photographer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-
-    <footer id="contact" class="amber lighten-1 black-text">
-        <div class="container pt-5 pb-2">
-            <h2 class="display-4 mb-3">Need help with a project?<span class="d-block display-3 font-weight-bold">Let's talk!</span></h2>
-            <a class="black-text p-2" href="mailto:argyris.ileana@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
-            <a class="black-text p-2" href="https://www.linkedin.com/in/ileanaargyris/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i> LinkedIn</a>
-            <a class="black-text p-2" href="https://github.com/ileanahi/" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
-            <p class="pt-3">&#9400; Copyright 2020 All Rights Reserved. Designed and Developed by Ileana Argyris.</p>
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
         </div>
-    </footer>
+    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, Bootstrap JS, then Material Design JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.12/js/mdb.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.js"></script>
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Ileana Argyris.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link">Ileana Argyris.</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Aloha
+                        </div>
+
+                        <h1 class="text-huge-title">
+                            I am Ileana, <br>
+                            a web <br> 
+                            developer<br>
+                            from Hawaii.
+                        </h1>
+                    </div>
+
+                    <ul class="intro-social">
+                        <li><a href="https://www.upwork.com/freelancers/~019b4875817246e25f" target="_blank">Upwork</a></li>
+                        <li><a href="https://www.linkedin.com/in/ileanaargyris" target="_blank">LinkedIn</a></li>
+                        <li><a href="http://github.com/ileanahi" target="_blank">Github</a></li>
+                    </ul>
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="images/ileana.jpeg" 
+                             srcset="images/ileana.jpeg 1x, images/ileana@2x.jpeg 2x" alt="" class="about-info__pic" data-animate-el>
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text" >
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About Me
+                            </h2>
+                            <p class="attention-getter" data-animate-el>
+                                Growing up, I was the child that wanted to know <em>how</em> and <em>why</em> things worked. My curiosity inspired a love of learning that led me to web development, a career requiring continuous learning to stay up to date with constantly evolving technology.<br><br>
+                                I enjoy sharing my experience with clients to create websites that load quickly, work well on all devices, and keeps their customers <strong>coming back.</strong>
+                            </p>
+                            <!-- <a href="#0" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a> -->
+
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                <div class="row about-expertise" data-animate-block>
+                    <div class="column lg-12">
+
+                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+
+                        <ul class="skills-list h1" data-animate-el>
+                            <li>React</li>
+                            <li>Ruby on Rails</li>
+                            <li>JavaScript</li>
+                            <li>WordPress</li>
+                            <li>Website Development</li>
+                            <li>Website Design</li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end about-expertise -->
+
+
+                <div class="row about-timelines" data-animate-block>
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Break Diving, LLC</h3>
+                                    <h5 class="timeline__meta">Fullstack Developer</h5>
+                                    <p class="timeline__timeframe">April 2019 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>I architect responsive design solutions to ensure user-friendly experiences for our 850+ members. I also develop new features using HTML, CSS, Boostrap, Ruby on Rails, and JavaScript. I love the Break Diving community and act as a community leader, regularly welcoming new members and attending events. </p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Studiobooth, LLC</h4>
+                                    <h5 class="timeline__meta">Frontend Developer</h5>
+                                    <p class="timeline__timeframe">October 2020 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>I collaborate with designers to create pixel perfect websites using HTML and CSS. Based on the given desktop design comps, I make the sites mobile responsive to ensure that the sites performs well on all devices.</p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">University of the People</h3>
+                                    <h5 class="timeline__meta">Associate's in Computer Science</h5>
+                                    <p class="timeline__timeframe">November 2021</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Topics include: Computer Systems, Databases, Communications and Networking, Web Programming (PHP), Software Engineering (Java), and Operating Systems.</p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Udacity</h4>
+                                    <h5 class="timeline__meta">Front End Web Developer Nanodegree</h5>
+                                    <p class="timeline__timeframe">October 2018</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Front end fundamentals including web accessibility, responsive design, and React.</p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+                        
+                    </div> <!-- end column -->
+
+
+                </div> <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+
+
+                <div class="row works-portfolio">
+
+                    <div class="column lg-12" data-animate-block>
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Recent Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some of my favorite projects I have completed recently.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-01">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/marshmallow.png"
+                                             srcset="images/portfolio/marshmallow.png 1x, images/portfolio/marshmallow@2x.png 2x"  alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Front End Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Marshmallow Streaming.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-02">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/vicki.png" 
+                                             srcset="images/portfolio/vicki.png 1x, images/portfolio/vicki@2x.png 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Front End Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Vicki Vandeventer
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-03">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/breakdiving.png" 
+                                             srcset="images/portfolio/breakdiving.png 1x, images/portfolio/breakdiving@2x.png 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Full Stack Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Breakdiving.io
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-04">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/maine.png"
+                                             srcset="images/portfolio/maine.png 1x, images/portfolio/maine@2x.png 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Theming
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                           Maine Cater
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-05">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/explus.png" 
+                                             srcset="images/portfolio/explus.png 1x, images/portfolio/explus@2x.png 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Front End Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Express Plus Hosting
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-06">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/wendy.png" 
+                                             srcset="images/portfolio/wendy.png 1x, images/portfolio/wendy@2x.png 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Design and Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Wendy Hope
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                        </ul> <!-- end folio-list -->
+
+                    </div> <!-- end column -->
+
+
+                    <!-- Modal Templates Popup
+                    -------------------------------------------- -->
+                    <div id="modal-01" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-marshmallow.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Marshmallow Streaming</h5>
+                                <p>I developed the frontend of the website based on the designer's comps using Bootstrap 4. I used custom CSS for branding and custom form elements.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Frontend Development</li>
+                                    <li>Bootstrap 4</li>
+                                </ul>
+                            </div>
+                
+                            <a href="http://marshmallowstreaming.com/" class="modal-popup__details" target="_blank">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-02" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-vicki.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Vicki Vandeventer</h5>
+                                <p>I worked with Vicki to update her portfolio site. I used completely custom CSS (no frameworks) to create the website to her specifications. The site works well on all browsers and devices.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Frontend Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="http://vandesigner.com/" class="modal-popup__details" target="_blank">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-03" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-breakdiving.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Break Diving, Inc</h5>
+                                <p>The Break Diving community is the friendliest and most supportive social media that you can find on the internet. I am developing this site remotely with a team of other developers. The Break Diving community application is built with HTML, CSS, JavaScript, and Ruby on Rails and is hosted on Heroku. Come join us! </p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Development</li>
+                                    <li>Web Design</li>
+                                    <li>Feature Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://breakdiving.io/" class="modal-popup__details" target="_blank">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-04" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-marshmallow.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Maine Cater</h5>
+                                <p>Maine Cater needed someone to step in to retheme their third party job board to give users 
+                                    a seamless experience between their main site and their job board. I edited the CSS for the 
+                                    job board to bring the site in line with the Maine Cater brand.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Website</li>
+                                </ul>
+                            </div>
+                
+                            <a href="http://jobs.mainecater.com/" class="modal-popup__details" target="_blank">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-05" hidden>
+                        <div class="modal-popup">
+
+                            <img src="images/portfolio/gallery/g-express.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Express Plus Hosting</h5>
+                                <p>I developed this site based on design comps. The designer did not provide a mobile 
+                                    version of the site, so I adapted the desktop site to work on mobile devices. I used Bootstrap 4 and 
+                                    the Argon Design system to develop this site.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Frontend Development</li>
+                                    <li>Website Design</li>
+                                    <li>Bootstrap 4</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://argyrisileana.com/explus/" class="modal-popup__details" target="_blank">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-06" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-wendy.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Wendy Hope</h5>
+                                <p>I redesigned this artist's website and combined many of the pages to create an updated website that she could be proud of.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Design</li>
+                                    <li>Web Development</li>
+                                    <li>Bootstrap 4</li>
+                                </ul>
+                            </div>
+                
+                            <a href="http://wendyhope.com.au/" class="modal-popup__details" target="_blank">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                </div> <!-- end works-portfolio -->
+
+
+                <div class="row testimonials">
+                    <div class="column lg-12" data-animate-block>
+        
+                        <div class="swiper-container testimonial-slider" data-animate-el>
+        
+                            <div class="swiper-wrapper">
+
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Chris Yau</strong>
+                                            <span>CEO, Crucible Cloudworks</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                        Ileana was extremely skilled in all tasks assigned to her, including being a mentor to a younger designer/developer. 
+                                        Despite being a freelancer, she quickly adapted to our company culture and soon felt like a valued member of a TEAM, 
+                                        rather than just "another resource." She was able to anticipate our needs and worth "proactively" by identifying 
+                                        potential problems and roadblocks in the JavaScript she built out, as opposed to simply telling me there were problems 
+                                        later.
+                                    </p>
+                                </div> <!-- end testimonial-slider__slide -->
+                
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Daryle Degen</strong>
+                                            <span>CEO, Maine Cater</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                        She always goes above and beyond and doesn't stop until the project is perfect. She even worked on our schedule, 
+                                        which is practically around the clock. Very fast, efficient, with high-quality work. If you need a developer who 
+                                        cares as much about your business as you do, Ileana is the person - LOVE HER!
+                                    </p>
+                                </div> <!-- end testimonial-slider__slide -->
+                
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Carrie Cronan</strong>
+                                            <span>Photographer, Carrie Cronan Photography</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                        Ileana is knowledgeable, helpful, fast, skilled, polite, consistent, and reliable. 
+                                        I appreciated all her hard work for my very small project. 
+                                        I am very grateful for her assistance!
+                                    </p>
+                                </div> <!-- end testimonial-slider__slide -->
+        
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Bryan Long</strong>
+                                            <span>Co-founder, Southern Majority</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                        I could not be happier with Ileana's work. She succeeded in every possible way: communication, adherence to schedule, quality of work. She was very responsive and understood exactly what needed to be done to complete the project quickly and efficiently.
+                                    </p>
+                                </div> <!-- end testimonial-slider__slide -->
+            
+                            </div> <!-- end swiper-wrapper -->
+        
+                            <div class="swiper-pagination"></div>
+        
+                        </div> <!-- end swiper-container -->
+        
+                    </div> <!-- end column -->
+                </div> <!-- end row testimonials -->
+
+            </section> <!-- end s-works -->
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h1">
+                            I would love to hear from you.
+                            Whether you have a question about your current site or want to create a completely new site - send me a message!
+                            I am always happy to help.   
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:argyris.ileana@gmail.com" class="mailtoui">argyris.ileana@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="contact-social">
+                            <li><a href="https://www.upwork.com/freelancers/~019b4875817246e25f"target="_blank">Upwork</a></li>
+                            <li><a href="https://www.linkedin.com/in/ileanaargyris" target="_blank">LinkedIn</a></li>
+                            <li><a href="http://github.com/ileanahi" target="_blank">Github</a></li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:argyris.ileana@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Ileana Argyris 2021</span> 
+                    <span>Design by <a href="https://www.styleshout.com/" target="_blank">StyleShout</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-</body>
 
+</body>
 </html>
